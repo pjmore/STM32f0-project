@@ -156,8 +156,8 @@ void myLCD_Init() {
 	myDelay(2);
 	Send_LCD(0x1, CMD);
 	myDelay(2);
-       char upper[9] = {'F',':','h','e','l','p','H','z','\0'};
-       char lower[9] = {'R',':','m','e',' ',' ','O','h','\0'};
+       char upper[9] = {'F',':',' ',' ',' ',' ','H','z','\0'};
+       char lower[9] = {'R',':',' ',' ',' ',' ',' O','h','\0'};
 
 
 	for(int i=0; i < 9; i++){
